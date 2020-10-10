@@ -8,8 +8,4 @@
     <ProjectReference Include="..\MoneyManager.Domain\MoneyManager.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="UseCases\" />
-  </ItemGroup>
-
 </Project>
