@@ -8,9 +8,9 @@ namespace MoneyManager.Domain.UnitTests
     public class AccountTests
     {
         [Fact]
-        public void InvalidName_GivesError()
+        public void InvalidLabel_GivesError()
         {
-            const string expectedMessage = "Account name should not be empty";
+            const string expectedMessage = "Account label should not be empty";
 
             var nullException = Assert.Throws<ArgumentException>(() => Act(null));
             var emptyException = Assert.Throws<ArgumentException>(() => Act(string.Empty));
